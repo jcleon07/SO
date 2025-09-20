@@ -6,7 +6,7 @@ int main() {
     int pipefd[2];
     int r;
     pid_t pid;
-    int iteraciones = 10000000000;
+    long int iteraciones = 10000000;
     double pi = 0.0;
     double pi_rec;
 
